@@ -1,11 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import "base";
 
-body{
-    width: 100vw;
-    min-height: 100vh;
+// HEADER START
+header {
+  nav {
+    padding: 2em;
+    // LOGO
+    .logo {
+      h2 {
+        color: red;
+        font-weight: bolder;
+        font-size: 1vw;
+        animation-duration: 5s;
 
-    .container{
-        background-color: aqua;
-        h1{color: red;}
+        span {
+          color: black;
+          font-size: 1.5vw;
+        }
+      }
     }
+  }
 }
