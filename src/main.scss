@@ -222,9 +222,10 @@ main {
 
     .my-work {
       margin-top: 1em;
+
       .work1 {
         display: flex;
-        justify-content: center;
+
         flex-wrap: wrap;
         padding: 2em;
 
@@ -233,7 +234,9 @@ main {
           height: 300px;
         }
         .abstract {
-          margin-left: 2em;
+          width: 55vw;
+          margin-left: 1em;
+          text-align: justify;
 
           h3 {
             padding-top: 1em;
@@ -366,10 +369,7 @@ footer {
     }
     .about {
       min-height: 100vh;
-      overflow: scroll;
-      .bg-image {
-        min-height: 100vh;
-      }
+
       .me {
         min-height: 100vh;
 
@@ -383,8 +383,16 @@ footer {
       min-height: 100vh;
 
       .my-work {
-        min-height: 100vh;
-        overflow: scroll;
+        // min-height: 100vh;
+
+        .work1 {
+          .image.img {
+            margin-right: 2em;
+          }
+          .abstract {
+            width: 100vw;
+          }
+        }
       }
     }
   }
