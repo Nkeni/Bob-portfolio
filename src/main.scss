@@ -182,12 +182,11 @@ main {
     // }
 
     .me {
-      background-color: rgba(235, 243, 240, 0.6);
+      background-color: rgba(153, 194, 179, 0.689);
       color: black;
       font-weight: bold;
       z-index: 2;
       width: 80%;
-
       padding: 2em;
       text-align: center;
       // position: absolute;
@@ -217,17 +216,19 @@ main {
     h2 {
       font-size: 2.5em;
       text-align: center;
-      padding-top: 1em;
+      padding-top: 2em;
     }
 
     .my-work {
       margin-top: 1em;
+      display: flex;
+      justify-content: center;
 
       .work1 {
         display: flex;
-
         flex-wrap: wrap;
-        padding: 2em;
+        padding: 1em;
+        gap: 3em;
 
         .image img {
           width: 330px;
@@ -235,7 +236,7 @@ main {
         }
         .abstract {
           width: 55vw;
-          margin-left: 1em;
+
           text-align: justify;
 
           h3 {
@@ -383,11 +384,9 @@ footer {
       min-height: 100vh;
 
       .my-work {
-        // min-height: 100vh;
-
         .work1 {
-          .image.img {
-            margin-right: 2em;
+          .image img {
+            padding-left: 1em;
           }
           .abstract {
             width: 100vw;
