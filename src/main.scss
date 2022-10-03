@@ -216,7 +216,7 @@ main {
     h2 {
       font-size: 2.5em;
       text-align: center;
-      padding-top: 2em;
+      padding-top: 3em;
     }
 
     .my-work {
@@ -227,7 +227,6 @@ main {
       .work1 {
         display: flex;
         flex-wrap: wrap;
-        padding: 1em;
         gap: 3em;
 
         .image img {
@@ -236,7 +235,7 @@ main {
         }
         .abstract {
           width: 55vw;
-
+          padding: 1em;
           text-align: justify;
 
           h3 {
@@ -353,7 +352,7 @@ footer {
 
 // MEDIA QUERY
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 912px) {
   html,
   body {
     width: 100%;
@@ -386,7 +385,7 @@ footer {
       .my-work {
         .work1 {
           .image img {
-            padding-left: 1em;
+            padding-left: 2em;
           }
           .abstract {
             width: 100vw;
@@ -436,15 +435,6 @@ footer {
     .intro-msg {
       text-align: center;
       padding-top: 2em;
-    }
-  }
-  .projects {
-    .my-work {
-      .work1 {
-        .abstract {
-          min-height: 100vh;
-        }
-      }
     }
   }
 }
